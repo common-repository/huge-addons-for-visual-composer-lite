@@ -1,0 +1,23 @@
+/*
+ * HAVC Module: HAVC Chart Css
+ * Description: Chart using canvas.
+ * Author Name: NCreative
+ * Author URL: https://ncreativ.net
+ * Version: 1.0.0
+ */
+.havc-chart {
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+.havc-chart canvas{
+    display: block;
+}
+.havc-chart-text {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 100%;
+    background-clip: padding-box !important;
+}

@@ -1,0 +1,88 @@
+/*
+ * HAVC Module: HAVC Divider Css
+ * Description: Havc Divider for your theme.
+ * Author Name: NCreative
+ * Author URL: https://ncreativ.net
+ * Version: 1.0.0
+ */
+.havc-divider{
+ 	position: relative;
+ 	width: 100%;
+ 	padding-bottom: 10px;
+}
+.havc-divider .havc-line{
+	margin-top: 4px;
+}
+.havc-divider .havc-divider-left{
+ 	margin-left: 0 !important;
+ 	margin-right: auto !important;
+}
+.havc-divider .havc-divider-right{
+ 	margin-left: auto !important;
+ 	margin-right: 0 !important;
+}
+.havc-divider .havc-divider-center{
+ 	margin-left: auto !important;
+ 	margin-right: auto !important;
+}
+
+.havc-divider .havc-divider-line{
+	display: table-cell;
+	vertical-align: middle;
+}
+.havc-divider .havc-divider-line span{
+	display: block;
+}
+.havc-divider .havc-content-center .havc-side-left,
+.havc-divider .havc-content-center .havc-side-right{
+	width: 50%;
+}
+.havc-divider .havc-side-content{
+	text-align: center;
+	white-space: nowrap;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.havc-divider .havc-type-icon_border .havc-side-content i{
+	padding: .5em;
+}
+/**
+ * havc divider content left
+ */
+.havc-divider .havc-content-left .havc-side-left{
+	width: 0%;
+}
+.havc-divider .havc-content-left .havc-side-right{
+	width: 100%;
+}
+.havc-divider .havc-content-left.havc-type-icon_mode .havc-side-content{
+	padding-left: 0;
+}
+
+/**
+ * havc divider content right
+ */
+.havc-divider .havc-content-right .havc-side-left{
+	width: 100%;
+}
+.havc-divider .havc-content-right .havc-side-right{
+	width: 0%;
+}
+.havc-divider .havc-content-right.havc-type-icon_mode .havc-side-content{
+	padding-right: 0;
+}
+/**
+ * icon border
+ */
+.havc-divider .havc-content-right.havc-type-icon_border .havc-side-content i,
+.havc-divider .havc-content-right.havc-type-text_border .havc-side-content{
+	padding-right: 10px;
+}
+.havc-divider .havc-content-left.havc-type-icon_border .havc-side-content i,
+.havc-divider .havc-content-left.havc-type-text_border .havc-side-content{
+	padding-left: 10px;
+}
+/**
+ * border style
+ */
+

@@ -1,0 +1,12 @@
+.wpb_havc_dropcap[data-element_type="havc_dropcap"] .havc-drop-cap-icon{
+	background-image: url('../assets/images/icon.png');
+}
+#havc_dropcap[data-tag="havc_dropcap"] .havc-drop-cap-icon{
+	background-image: url('../assets/images/icon.png');
+}
+.wpb_havc_button[data-element_type="havc_button"] .havc-button-icon{
+	background-image: url('../assets/images/icon.png');
+}
+#havc_button[data-tag="havc_button"] .havc-button-icon{
+	background-image: url('../assets/images/icon.png');
+}
